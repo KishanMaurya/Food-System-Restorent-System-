@@ -1,0 +1,6 @@
+/Users/Fazal/Desktop/aproject/untitled folder/FOODPROJECT/bin/final_pro_my.dll
+/Users/Fazal/Desktop/aproject/untitled folder/FOODPROJECT/bin/final_pro_my.pdb
+/Users/Fazal/Desktop/aproject/untitled folder/FOODPROJECT/obj/Debug/final_pro_my.csprojAssemblyReference.cache
+/Users/Fazal/Desktop/aproject/untitled folder/FOODPROJECT/obj/Debug/final_pro_my.csproj.CoreCompileInputs.cache
+/Users/Fazal/Desktop/aproject/untitled folder/FOODPROJECT/obj/Debug/final_pro_my.dll
+/Users/Fazal/Desktop/aproject/untitled folder/FOODPROJECT/obj/Debug/final_pro_my.pdb

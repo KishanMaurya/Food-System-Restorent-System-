@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{117C0C6B-F117-4F74-9EC8-9A41CBFA5257}|">
+  <MonoDevelop.Ide.ItemProperties.final__pro__my PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Source Not Available">
+    <Files>
+      <File FileName="yup.aspx" Line="11" Column="34" />
+      <File FileName="Source Not Available" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="final_pro_my" expanded="True" selected="True">
+            <Node name="final_pro_my" expanded="True">
+              <Node name="Global.asax" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

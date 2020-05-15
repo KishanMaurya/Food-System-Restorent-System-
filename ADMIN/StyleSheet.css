@@ -1,0 +1,103 @@
+﻿body 
+{
+    
+}
+
+
+#login
+{
+    width:350px;
+    height:180px;
+    border:solid 1px #fff;
+    margin:0 auto;
+    }
+    .lbl
+    {
+        text-align:right;
+        color:#fff;
+        font-size:20px;
+        height:35px;
+        }
+        .txt
+        {
+            border:solid 1px #fff;
+            width:200px;
+            height:24px;
+            background-color:transparent;
+            color:yellow;
+            }
+              .txt:hover
+        {
+            border:solid 1px #fff;
+            width:200px;
+            height:24px;
+            background-color:#CC9D9D;
+            }
+            .btn
+            {  
+                    height:30px;
+                  
+                  
+                 border:solid 1px #fff;
+                  background-color:#FFFFDF;
+                font-size:medium;
+               
+                color:Maroon;
+    top: 0px;
+    left: 0px;
+}
+                 .btn:hover
+            {
+              background-color:transparent;
+                height:30px;
+                font-size:medium;
+                  border:solid 1px #fff;
+                  color:#fff;
+                }
+                
+                #cont
+                {width:940px;
+                 height:550px;
+                 border:solid 1px #fff;
+                 margin:0 auto;
+                    margin-top:10px;
+                    }
+                    #menu
+                    {
+                        width:940px;
+                        height:35px;
+                        border: solid 0px #fff;
+                        margin:0 auto;margin-top:10px;
+                        }
+                 .btnn
+            {
+                height:35px;
+                font-size:medium;
+                width:133px;
+                 background-color:transparent;
+                 color:#fff;
+                 border:solid 2px #fff;
+                }
+                 .btnn:hover
+            {
+                height:35px;
+                 background-color:#FFFFDF;
+                width:133px;
+                color:Maroon;
+                }
+                
+                .tbl                
+                {
+                width:100%;    
+                    }
+                    
+                  .tblhead
+                  {
+                      height:30px;
+                      text-align:center;
+                      font-size:larger;
+                      color:#fff;
+                      font-weight:bold;
+                      padding:6px;
+                      border-bottom:solid 1px #fff;
+                      }

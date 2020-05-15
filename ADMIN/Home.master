@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+     <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/camera.css">
+    <link rel="stylesheet" href="../css/jquery.fancybox.css">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery-migrate-1.2.1.js"></script><script src='../js/device.min.js'></script> 
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="page">
+      
+          <main>
+       <%-- <section class="well">--%>
+            <%--<div class="container">--%>
+                <h4><em>Welcome to Just Eat..</em></h4>
+           <%-- </div>     --%>       
+       <%-- </section>--%>
+            </main>
+            <div id="menu">
+                <table class="style1">
+                    <tr>
+                        
+                        <td>
+                            <asp:Button ID="Button2" runat="server" CssClass="btnn" Text="ADD PRODUCT" 
+                                PostBackUrl="~/ADMIN/AddProduct.aspx" />
+                        </td>
+                        <td>
+                            <asp:Button ID="Button3" runat="server" CssClass="btnn" Text="VIEW PRODUCT" 
+                                PostBackUrl="~/ADMIN/ViewProduct.aspx" />
+                        </td>
+                        <td>
+                            <asp:Button ID="Button4" runat="server" CssClass="btnn" Text="NEW ORDER" 
+                                PostBackUrl="~/ADMIN/NewOrder.aspx" />
+                        </td>
+                        <td>
+                            <asp:Button ID="Button5" runat="server" CssClass="btnn" Text="REPORTS" 
+                                PostBackUrl="~/ADMIN/Reports.aspx" />
+                        </td><td>
+                            <asp:Button ID="Button1" runat="server" CssClass="btnn" Text="USER ACCOUNT" 
+                                PostBackUrl="~/ADMIN/UserAccount.aspx" onclick="Button1_Click" />
+                        </td><td>
+                            <asp:Button ID="Button7" runat="server" CssClass="btnn" Text="PAYMENT" 
+                                PostBackUrl="~/ADMIN/Payment.aspx" />
+                        </td>
+                        <td>
+                            <asp:Button ID="Button6" runat="server" CssClass="btnn" Text="LOG OUT" 
+                                PostBackUrl="~/Default.aspx" onclick="Button6_Click" />
+                        </td>
+                    </tr>
+                </table>
+          </div>
+            <div id="cont">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder></div>
+         
+   
+    </div>
+    </form>
+</body>
+</html>
